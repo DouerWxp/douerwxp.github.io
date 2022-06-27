@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Cybersecurity Analysis for Cyber Attack at the University of Calgary | DouerWxp | Running Water never grows stale, so you gotta just keep on flowing</title>
+
+  
+  <meta name="author" content="XIUPING WU">
+  
+
+  
+  <meta name="description" content="AbstractWith the increase in security problems on the Internet, people gradually realize the importance of cybersecurity (Ghorbani and Ahmadzadegan ,2017). The incident response is essential in cybersecurity strategy, efficient cyber response could reduce the loss and strengthen the business continuity (Snedaker, 2013). This paper is based on the case that happened at the University of Calgary on May 28, 2016, critically analyzing the incident response taken in terms of immediate response, communication, and business continuity. At the end of this paper, we provide an ideal solution to face ransomware attacks.
+Keywords: Cybersecurity, Ransomware, Incident Response">
+  
+
+  
+  
+  <meta name="keywords" content="security,cyber,case study">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="Cybersecurity Analysis for Cyber Attack at the University of Calgary"/>
+
+  <meta property="og:site_name" content="DouerWxp"/>
+
+  
+  <meta property="og:image" content="/favicon.ico"/>
+  
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="DouerWxp" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">DouerWxp</a>
+    </h1>
+    <p class="site-description">Running Water never grows stale, so you gotta just keep on flowing</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li><a href="/about">About</a></li>
+      
+        <li><a href="/categories">Categories</a></li>
+      
+        <li><a href="/tags">Tags</a></li>
+      
+        <li><a href="/archives">Archives</a></li>
+      
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>Cybersecurity Analysis for Cyber Attack at the University of Calgary</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/Cybersecurity-Analysis-for-Cyber-Attack-at-the-University-of-Calgary/" rel="bookmark">
+        <time class="entry-date published" datetime="2022-05-05T04:29:29.000Z">
+          2022-05-05
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>With the increase in security problems on the Internet, people gradually realize the importance of cybersecurity (Ghorbani and Ahmadzadegan ,2017). The incident response is essential in cybersecurity strategy, efficient cyber response could reduce the loss and strengthen the business continuity (Snedaker, 2013). This paper is based on the case that happened at the University of Calgary on May 28, 2016, critically analyzing the incident response taken in terms of immediate response, communication, and business continuity. At the end of this paper, we provide an ideal solution to face ransomware attacks.</p>
+<p><strong>Keywords: Cybersecurity, Ransomware, Incident Response</strong></p>
+ <span id="more"></span>
+
+<h2 id="1-Introduction"><a href="#1-Introduction" class="headerlink" title="1. Introduction"></a>1. Introduction</h2><p>According to the case (2021), the cyber-attack at the University of Calgary (the U of C) in 2016, was a type of ransomware (Murugavel &amp; Santhi, 2020) called SamSam. Based on Sperotto et al. (2009), SamSam is using Remote Desktop Protocol brute-force attack to guess weak passwords. Once attacked, attacked screens of computers could be locked, files could be encrypted, email servers could be halted and Content Delivery Network (CDN) could not be accessed, victims could discover ransom notes, these phenomena are consistent with after the U of C attacked. Ransomware is a kind of malware that can encrypt data and cut off users’ access to these data unless a ransom is paid. During the encryption process, the SamSam generates a unique AES key for each file and would wipe out evidence and traces to complete the second encryption. After, the malware could be uninstalled automatically once the encryption task is done. (See SamSam Attack Process in Appendix 1.)</p>
+<p>According to Boyd (2018), SamSam ransomware is a custom infection used in target attacks. However, SamSam is a distributed control software, which can detect potential-victim computers, attackers need to operate mutually in encryption and ransom process (SOPHOS, 2020). So that SamSam cannot complete the whole attack itself but help attackers scan targeted computers. Therefore, the cyber-attack happened at the University of Calgary is not simple ransomware, also existing attackers behind the scenes operate cybercrime events. </p>
+<p>Above processes are not unique traits to SamSam (Aurangzeb et al., 2017), as Malwarebytes Labs mentioned, GlobeImposter is also ransomware using RDP brute-force attack to crack weak passwords and artificial delivery ransomware. Besides, although most ransomware is not distributed manually, Samsam shares similarities with CryptoWall, CTB-Locker, Locker etc. (Meskauskas, 2022). Most ransomware encrypts victims’ files and makes ransom demands (CISA, 2018). Above all, the unique characteristic of the SamSam is SamSam’s payload, to make it difficult to be analysed by experts, SamSam attackers built samples unique to each victim and decrypted the payload with a password they changed for each attack (Boyd, 2018).</p>
+<p>To prevent these attacks, we should open attachments sent from unrecognized email addresses and download software from third-party sources carefully (Liu et al.,2022). Also, using a legitimate anti-virus or anti-spyware suite is paramount. </p>
+<p>In view of the SamSam ransom could be paid by bitcoin on the dark web in case, the hacker is a mercenary criminal (Nataraj et al., 2011), and this attack mostly is financially motivated. Also, the attacker provided instructions on how and where to buy bitcoin in their ransom notes, which means the actors behind this attack event were probably a recidivist. Besides, as Exhibit 5 shown, SamSam attackers attacked public institutions and prevails in schools and hospitals, especially in governments with 100 percent (Exhibit 5). As a result, the attackers could be rebels against the political agenda.</p>
+<h2 id="2-Risk-mitigation-strategies"><a href="#2-Risk-mitigation-strategies" class="headerlink" title="2. Risk mitigation strategies"></a>2. Risk mitigation strategies</h2><p>The assets influenced by this 2016 incident could be divided into data assets, hardware assets, service assets, and other intangibles (Maiorca et al., 2015). And the risk matrix is a way to evaluate cyber-risks, with the likelihood of a given potential vulnerability, and the resulting impact of the adverse event on the organization (NIST SP 800-30). (See Details in Appendix 2.)</p>
+<p>Risk Mitigation is the process of identifying the most important assets in an entity and using risk strategies to protect them (Biringer et al., 2013). And the previous risk strategies of the University of Calgary could be described in terms of three cybersecurity pillars, technology, process, and people (Ani et. al., 2017). For technology, the U of C applied an intrusion detection system to check abnormal behaviours, used basic firewalls and antivirus to prevent outside invasion, and encrypted data transmission by applying SSL tech. Additional, we can state that U of C employed server hosting options solutions as Exhibit 4 shown. For process, we could conclude the U of C had a management system to let all stakeholders understand and implement the university’s policies, ensuring staff work with a rule-based procedure. Meanwhile, the U of C had log audits for cybersecurity, which can help entities review attacking records. For staff, the U of C owned a dedicated team employing full time with a complete structure. Also, it has consultant service from a third-party, Deloitte, which means U of C has a hybrid employment strategy.</p>
+<p>Besides the previous risk mitigation strategies, the U of C could build network segmentation as technical control on overall consideration. Network segmentation is an architecture dividing a network into smaller subnets, which can prevent unauthorized users from gaining access to their most valuable assets. However, the network segmentation would bring management problems. For example, one IP could map several PCs due to network segmentation. Another technical control should be considered is cryptography, using encryption algorithms to protect data, which makes data harder to be used by attackers. However, data encryption cannot prevent SamSam or similar file-encrypt ransomware, since these malwares still can encrypt target files again to lock them. Besides, the university should use VPN to prevent access by outside domains, whereas this operation is inconvenient to users. The above problems generated from technical control methods need the organization to build an optimized model to evaluate a balanced strategy, which could make the university cyber cost-effective.</p>
+<p>In addition, the attack happened at the University of Calgary cannot be regarded as a vulnerability of the firewall. A firewall is a network security software which can monitor and filter incoming and outgoing network traffic based on the previous security policy. Therefore, the firewall cannot achieve detecting malicious invasion functions, other software such as brute-force detection system and Intrusion Detection System (IDS) can be used to monitor for ‘suspicious activity’ on a network.</p>
+<p>As administrative control, training for awareness of cyberculture is essential. For example, use strict standards and requirements, regarding enforcing a strong password policy, which could prevent brute-force attacks. For confidential data, the best security is an off-line environment, whereas it will take a huge use-cost for an entity. However, the given administrative control would improve the users’ operation complexity.</p>
+<p>Aiming to SamSam, the university needs to close port 3389 if port 3389 is not indispensable, and change to use other remote desktop software. Plus, update the latest operation system patches timely. Jump out of the University of Calgary, the operation system suppliers need to consider adding two-factor authentication in the port 3389 authentication protocol such as RSA, biometric authentication, etc. (See Controls Table in Appendix 3.)</p>
+<h2 id="3-Deficiencies-and-Improvements-of-the-Incident-Response"><a href="#3-Deficiencies-and-Improvements-of-the-Incident-Response" class="headerlink" title="3. Deficiencies and Improvements of the Incident Response"></a>3. Deficiencies and Improvements of the Incident Response</h2><p>The incident response is the face of an entity’s cybersecurity program (Thompson,2018). The goal of incident response is to detect, respond to, and limit the consequences of malicious cyber-attacks when a cyber incident occurs. Also, the incident response should consider the entities’ internal communication structure and its business continuity.</p>
+<h3 id="3-1-Immediate-Response"><a href="#3-1-Immediate-Response" class="headerlink" title="3.1 Immediate Response"></a>3.1 Immediate Response</h3><p>The Emergency Response Team (ERT) responds to infrastructure failure immediately. Kevan Austen was noticed for the first time when his team detected a cyber breach. Then, the ERT header arrived on campus and activated the emergency response team at 3:00 a.m., and he preserved data, contained the malware; disconnected the network to prevent further spreading of the virus by physical method on Day1. Also, ERT and the IT team assembled in Day1. The speed of the U of C’s immediate response is excellent. </p>
+<p>However, we could conclude their response actions are people-oriented. Austen cut off the data centre based on his knowledge, Linda Dalgetty called the board as someone requested, and they made decisions at meetings. These behaviours mean the U of C did not have an organized playbook to face such cyber-attacks. However, a university needs to formulate a clear playbook to manage the organization’s immediate response and individual actions. (See Details in Appendix 4.)</p>
+<h3 id="3-2-Communication"><a href="#3-2-Communication" class="headerlink" title="3.2 Communication"></a>3.2 Communication</h3><p>The given cyber event started at the IT operations detecting unusual alarms and seeing the ransom notes on computers at midnight. Then the workers informed headers immediately, activating ERT immediately whenever and wherever was the right action. Besides, the U of C used alternative communication channels to remediate attacked email services efficiently, communicating with internal and external stakeholders. Meanwhile, every crisis meeting included communication professionals, who were focused on crafting the message and controlling the story. (See Communication Happened in Appendix 5.)</p>
+<p>For communication with the public, the early plan of CMT was hiding the severity of the attacking situation, which is an improper decision because the public cannot respond with protective measures to the right malware. Entities should tell the real story to the public and let everyone know fact. Also, entities should find an equilibrium between the truth and the public influence, which could let the public respond to incident events quickly with correct actions and decrease potential reputation loss.</p>
+<p>Specifically, IT team was dedicated to decreasing the cyber-attack influence, but CMT need to think about the interest of the whole university’s system, more than attacks. The U of C needs to formulate a clear emergency plan giving specific roles to IT operations and leaders, decreasing internal communication costs in attacked emergencies.</p>
+<h3 id="3-3-Business-Continuity"><a href="#3-3-Business-Continuity" class="headerlink" title="3.3 Business Continuity"></a>3.3 Business Continuity</h3><p>Business continuity and disaster recovery (BCDR) plans are used in three levels, policy, management, and infrastructure to help the U of C recover from cyberattacks and resume business operations (SNEDAKER, 2013). The university did some correct items for business continuity. The U of C used posters and other alternative communication platforms to build channels associating with the public timely. Then, the key communicators organized people to migrate their email boxes to Office 365. However, The University weighed the business impact and financial impact on Day 5, which is late. The U of C should activate business and financial evaluation work after figuring out the attack’s root cause. In this way, the university can remain more time optimizing options and make a final decision. </p>
+<p>Overworked operations reduced the IT team’s decision-making ability. Combining AI with cybersecurity could be a good choice to assist the IT team. The entity could leverage the power of AI to automatically investigate indicators of compromise and gain critical insights, accelerate incident analysis and remediation, protect corporate data, and uphold compliance with containment identity and patch management, which could benefit to entity’s response strategy and business continuity. However, AI has limits in cybersecurity. The entities need to invest a lot of time and money in resources, such as computing power, and data to build AI systems. Besides, the AI models need to be trained by many different data sets of malicious codes, and the AI-enabled systems need entities to train human experts. Meanwhile, the AI system does not substitute the humans, entities still need experts to form hypotheses, evaluate risks, and decide on final actions in the event of an attack.</p>
+<h2 id="4-Proposed-Solution"><a href="#4-Proposed-Solution" class="headerlink" title="4. Proposed Solution"></a>4. Proposed Solution</h2><p>The University of Calgary need to pay the ransom but in a smarter way (SOPHOS, 2020). </p>
+<p>My recommendation is that reboot the management information system if the University of Calgary has a frequent data backup control plan. In this way, the University of Calgary does not involve paying the ransom to ransomware attackers when its business continuity occurs a serious breach. </p>
+<p>Otherwise, the university has no choice, it must decide to pay the ransom. As Moscovitz (2017) stated, the cost of controls cannot exceed the value of the asset entities are trying to protect. Specifically, the value of 27 bitcoins is far less than the value of a top research institution in Canada, the University of Calgary, which received substantial public funds from the provincial government. Also, as Exhibit 4, the total capital budget of the University of Calgary from 2016 to 2017 is about CA$36.0 million, which is far above 27 bitcoins (approximately CA$21,000). </p>
+<p>Specifically, once noticed organization attacked by the SamSam, the University of Calgary must disconnect the network by physical control and activate incident responses. Remember, do not fall into the fear appeal trap (Renaud &amp; Dupuis, 2019), as fear could lead to defensive reactions and bias in information processing, which could result in irrational behaviour. For paying the ransom, the organization should follow the ransom note lead and judge two issues: whether the SamSam attackers are honest, and whether negotiating with the SamSam attackers is feasible. (See Details in Appendix 6.)</p>
+<p>Based on the above operations, the university should raise the level of attention to self and third-party data backup. Although it would improve the cost of cybersecurity for a university, we still need to do it promptly because it can help entities recover in any serious scenario. Meanwhile, frequent self-backup could avoid data missing in the file recovery process, through the university decide to pay the ransom. Besides, reputation and trust may be affected if the university pays the ransom. As soon as the public knows the real attacking story, the reputation and trust of the U of C would be threatened more seriously if the management team makes the story up. In this situation, the external stakeholders could rescind contracts, and the U of C could lose basic business trust. </p>
+<p>Indeed, given recommendation cannot ensure that the U of C avoids the data exposure risk when the university pays the ransom, as the data has been leaked when the attack happened, but I have tried to minimize the financial cost and data security, and guarantee business continuity.</p>
+<p>However, the paying ransom behaviours could result in the furtherance of cyber offences (Foley et al., 2019). But calling the police without paying the ransom would still lose important research data of the university and the university’s system cannot be repaired. The research data and the university’s system are very worthy at that busy and important timing. But in a long run, the university and other entities need to report to the authorities when attacked, which could lead to forming a virtuous cycle in cyber.</p>
+<p>Overall, all things considered, paying the ransom in a smarter way and protecting assets timely is the best solution for the U of C if the university has no data backup.</p>
+<h2 id="5-Conclusion"><a href="#5-Conclusion" class="headerlink" title="5. Conclusion"></a>5. Conclusion</h2><p>In this paper, we analysed the cyber security situation at the University of Calgary in 2016, indicating the shortage in incident response and the idea to improve it. Also, we illustrated a proposed solution in responding to the ransomware and discussed if the entity should pay the ransom in such a cyber situation. In the analysis process, we detected that cybersecurity is not only a technical problem, the managers’ attention and management strategy are also key factors. For an organization, the cyber-strategy should be supported by technical methods and administrative strategies. Overall, the entities should attach importance to the impact of the management on cybersecurity.</p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><p>Ani, U. P. D., He, H., &amp; Tiwari, A. (2017). Review of cybersecurity issues in industrial critical infrastructure: manufacturing in perspective. Journal of Cyber Security Technology, 1(1), 32-74. </p>
+<p>Aurangzeb, S., Aleem, M., Iqbal, M. A., &amp; Islam, M. A. (2017). Ransomware: a survey and trends. J. Inf. Assur. Secur, 6(2), 48-58.</p>
+<p>Biringer, B., Vugrin, E., &amp; Warren, D. (2013). Critical infrastructure system security and resiliency. CRC press.</p>
+<p>Boyd, C. (2018). SamSam ransomware: what you need to know. [online] Malwarebytes Labs. Available at: <a target="_blank" rel="noopener" href="https://blog.malwarebytes.com/cybercrime/2018/05/samsam-ransomware-need-know/">https://blog.malwarebytes.com/cybercrime/2018/05/samsam-ransomware-need-know/</a>.</p>
+<p>CISA (2018). SamSam Ransomware | CISA. [online] <a target="_blank" rel="noopener" href="http://www.cisa.gov/">www.cisa.gov</a>. Available at: <a target="_blank" rel="noopener" href="https://www.cisa.gov/uscert/ncas/alerts/AA18-337A">https://www.cisa.gov/uscert/ncas/alerts/AA18-337A</a>.</p>
+<p>Foley, S., Karlsen, J. R., &amp; Putniņš, T. J. (2019). Sex, drugs, and bitcoin: How much illegal activity is financed through cryptocurrencies?. The Review of Financial Studies, 32(5), 1798-1853.</p>
+<p>Ghorbani, H. R., &amp; Ahmadzadegan, M. H. (2017, November). Security challenges in internet of things: survey. In 2017 IEEE Conference on Wireless Sensors (ICWiSe) (pp. 1-6). IEEE.</p>
+<p>Jain, D., Dash, M.K., Kumar, A. and Luthra, S. (2021). How is Blockchain used in marketing: A review and research agenda. International Journal of Information Management Data Insights, 1(2), p.100044.</p>
+<p>Krutz, R. L., &amp; Vines, R. D. (2010). Cloud security: A comprehensive guide to secure cloud computing. Wiley Publishing.</p>
+<p>Liu, P., Li, X., Liu, N., Ma, Y., Wang, X. and Li, A. (2022). Is cyber anxiety signaling useful? An examination of leader’s emotional and behavioral reactions. Journal of Business Research, 146, pp.1–12.</p>
+<p>Maiorca, D., Ariu, D., Corona, I., Aresu, M., &amp; Giacinto, G. (2015). Stealth attacks: An extended insight into the obfuscation effects on android malware. Computers &amp; Security, 51, 16-31.</p>
+<p>Makridis, C.A. (2021). Do data breaches damage reputation? Evidence from 45 companies between 2002 and 2018. Journal of Cybersecurity, 7(1).</p>
+<p>Malwarebytes Labs. (n.d.). Ransom. GlobeImposter. [online] Available at: <a target="_blank" rel="noopener" href="https://blog.malwarebytes.com/detections/ransom-globeimposter/">https://blog.malwarebytes.com/detections/ransom-globeimposter/</a> [Accessed 30 Mar. 2022].</p>
+<p>Meskauskas, T. (2022). CryptoWall Virus. [online] <a target="_blank" rel="noopener" href="http://www.pcrisk.com/">www.pcrisk.com</a>. Available at: <a target="_blank" rel="noopener" href="https://www.pcrisk.com/removal-guides/7844-cryptowall-virus">https://www.pcrisk.com/removal-guides/7844-cryptowall-virus</a> [Accessed 30 Mar. 2022].</p>
+<p>Moschovitis, C. (2018). Understanding Risk. Cybersecurity Program Development for Business, pp.1–7.</p>
+<p>Murugavel, U. and Santhi, R. (2020). Detection of spam and threads identification in E-mail spam corpus using content based text analytics method. Materials Today: Proceedings.</p>
+<p>Nataraj, L., Karthikeyan, S., Jacob, G., &amp; Manjunath, B. S. (2011, July). Malware images: visualization and automatic classification. In Proceedings of the 8th international symposium on visualization for cyber security (pp. 1-7).</p>
+<p>Renaud, K., &amp; Dupuis, M. (2019, September). Cyber security fear appeals: Unexpectedly complicated. In Proceedings of the New Security Paradigms Workshop (pp. 42-56).</p>
+<p> Snedaker, S. (2013). Business continuity and disaster recovery planning for IT professionals. Newnes.</p>
+<p>SOPHOS (2020). SamSam: The (Almost) Six Million Dollar Ransomware. [online] Available at: <a target="_blank" rel="noopener" href="https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/SamSam-The-Almost-Six-Million-Dollar-Ransomware.pdf">https://www.sophos.com/en-us/medialibrary/PDFs/technical-papers/SamSam-The-Almost-Six-Million-Dollar-Ransomware.pdf</a>.</p>
+<p>Sperotto, A., Sadre, R., Boer, P. T. D., &amp; Pras, A. (2009, October). Hidden Markov Model modeling of SSH brute-force attacks. In International Workshop on Distributed Systems: Operations and Management (pp. 164-176). Springer, Berlin, Heidelberg.</p>
+<p>Valente, T. W., &amp; Fosados, R. (2006). Diffusion of innovations and network segmentation: the part played by people in promoting health. Sexually transmitted diseases, S23-S31.</p>
+<p><a target="_blank" rel="noopener" href="http://www.cisa.gov/">www.cisa.gov</a>. (2018). MAR-10219351.r1.v2 – SamSam1 | CISA. [online] Available at: <a target="_blank" rel="noopener" href="https://www.cisa.gov/uscert/ncas/analysis-reports/AR18-337A">https://www.cisa.gov/uscert/ncas/analysis-reports/AR18-337A</a> [Accessed 5 Apr. 2022].</p>
+<h2 id="Appendix-1-Attack-process-of-the-SamSam"><a href="#Appendix-1-Attack-process-of-the-SamSam" class="headerlink" title="Appendix 1. Attack process of the SamSam"></a>Appendix 1. Attack process of the SamSam</h2><p><img src="https://download.kezhi.tech/img/20220627235238.png"></p>
+<ol>
+<li><p>Target identification and acquisition. The SamSam attackers started surveillance of the victims and judged if the University of Calgary can pay the ransom. This step is for two reasons: the first is about whether the victims are in the “Anglosphere” and another reason is having money. </p>
+</li>
+<li><p>Penetrating the network. The attackers brute-forced weak passwords for Windows that have Remote Desktop Protocol (RDP) exposed through a hole in the firewall. </p>
+</li>
+<li><p>Elevate privileges. As soon as the SamSam attackers gained a foothold in the network, they used a variety of grey-hat and systems administrator tools (such as Mimikatz, Hyena) to escalate their own privileges. Their goal is to obtain Domain Administrator credentials. Then, the attackers took control of the Domain Controller.</p>
+</li>
+<li><p>Scanning the network for target computers. After elevating privileges, the attacker formed a list containing the potential-victim computers by attempting to write a plaintext file to targets. </p>
+</li>
+<li><p>Deploying and executing the ransomware. The attackers use the RSA-2048 encryption algorithm to deploy manually and strike at the worst possible time. After encrypting the files, Samsam automatically uninstalls from the victim’s PC.</p>
+</li>
+<li><p>Awaiting payment.</p>
+</li>
+</ol>
+<h2 id="Appendix-2-Asset-and-Associated-Risk-under-Attack"><a href="#Appendix-2-Asset-and-Associated-Risk-under-Attack" class="headerlink" title="Appendix 2. Asset and Associated Risk under Attack"></a>Appendix 2. Asset and Associated Risk under Attack</h2><p><img src="https://download.kezhi.tech/img/20220627235613.png"></p>
+<p>As data asset, the research data, business contracts, personal files, financial data are threated in this attack event. Regard to the data asset, the cyber-risk is high. Given that the data asset is a highly important asset and strategic significance to the university, so the data attacked impact is high. However, the data attacked likelihood would be medium, since the good data protection and high attack cost. In conclusion, the cyber risk associated with data would be high.</p>
+<p>The hardware influenced by the SamSam attack including computer servers, CDN Servers, active directory servers and work PC. For hardware, the attackers are hard to disrupt hardware by malware. So the cyber risk for hardware is low in my opinion.</p>
+<p>For service assets, the university’s management information system. Given the impact of system breakdown is a serious impact for the university and the likelihood is medium since the system is open but with governance.</p>
+<p>Besides, the university reputation (Makridis, 2021), university trust, customer relation, and researchers’ intellectual property could be affected in this event. The cyber risk for the university’s intangible asset would be medium, since the impact of the university is relatively fixed and the cyberattack is inevitable for entities. However, the behavior and actions of an organization after attacking will influence a greater degree of organization’s reputation and trust.</p>
+<h2 id="Appendix-3-The-additional-controls-and-recommended-approach-for-risks"><a href="#Appendix-3-The-additional-controls-and-recommended-approach-for-risks" class="headerlink" title="Appendix 3. The additional controls and recommended approach for risks"></a>Appendix 3. The additional controls and recommended approach for risks</h2><table>
+<thead>
+<tr>
+<th>Type  of Security Control</th>
+<th>Preventative</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Technical</td>
+<td>-  Network segmentation (Valente et al., 2016)  -  Cryptography, using encryption algorithm to protect data and make data harder  to be accessed and used  -  Remote backup to protect data (Krutz &amp; Vines, 2010)  - IP  control, requiring users using the VPN whenever accessing or using corporate  network and assets</td>
+</tr>
+<tr>
+<td>Administrative</td>
+<td>- Frequent training for awareness and  implement of cyber culture  -  Strict standards and requirements regarding passwords length and how often  they must be changed  - Restrict users’ permissions to install and run unwanted  software applications. Do not add users to the local administrators group  unless required.  -  Access control, Role-Based Access Control (RBAC)  -  Frequent data backup  -  Close port 3389 if the port 3389 is not indispensable, and change to use  other remote desktop software  - Keep  operation system patches up-to date  -Disable  unnecessary services on agency workstations and servers.</td>
+</tr>
+<tr>
+<td>Physical</td>
+<td>-  Confidential documents need to be stored in an off-line environment</td>
+</tr>
+</tbody></table>
+<h2 id="Appendix-4-My-Ideal-Plan-for-Immediate-Response-CISA-2018"><a href="#Appendix-4-My-Ideal-Plan-for-Immediate-Response-CISA-2018" class="headerlink" title="Appendix 4. My Ideal Plan for Immediate Response (CISA, 2018)"></a>Appendix 4. My Ideal Plan for Immediate Response (CISA, 2018)</h2><p> <img src="https://download.kezhi.tech/img/20220627235802.png"></p>
+<h2 id="Appendix-5-The-communication-happened-in-the-University-of-Calgary"><a href="#Appendix-5-The-communication-happened-in-the-University-of-Calgary" class="headerlink" title="Appendix 5. The communication happened in the University of Calgary"></a>Appendix 5. The communication happened in the University of Calgary</h2><p> <img src="https://download.kezhi.tech/img/20220627235814.png"></p>
+<h2 id="Appendix-6-Paying-Recommendations-for-University"><a href="#Appendix-6-Paying-Recommendations-for-University" class="headerlink" title="Appendix 6. Paying Recommendations for University"></a>Appendix 6. Paying Recommendations for University</h2><p> <img src="https://download.kezhi.tech/img/20220627235826.png"></p>
+<p>Considering three paying options offered by the SamSam attackers, as Sophos (2020) mentioned, many victims have not realized that paying for individual computers to be decrypted first and paying the remaining balance to obtain all the decryption keys then is available. However, based on this consideration, I suggest the organization evaluate the combination of three payment options, to compute the optimal payment combination and minimize cost during attacking. In addition, we could apply smart contracts (Jain et al., 2021) to build a negotiating bridge. Furthermore, the victim could invite attackers attending into bug bounty programs, and help organizations defend against malware in-depth if negotiation is possible. Noted that the above actions need to be completed before business time. For communication, the U of C needs to inform stakeholders timely and honestly, in the meantime, give some response advice to avoid escalation of attacks.</p>
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+      
+
+    <span class="post-categories">
+      <i class="icon-categories"></i>
+        <a href="/categories/case-study/">case study</a>
+    </span>
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/security/">security</a><a href="/tags/cyber/">cyber</a><a href="/tags/case-study/">case study</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+  
+
+	<section id="comment" class="comment">
+		<div id="vcomments"></div>
+	</section>
+	<!-- LeanCloud -->
+	<script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.10.0/dist/av-min.js"></script>
+	<!-- Valine -->
+	<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+	<script>
+		new Valine({
+			el: '#vcomments',
+			appId: 'GFclEkzNJ7vA4wSby6rvYj9z-gzGzoHsz',
+			appKey: 'naztdNR3oNkuVdkmhvM7UmXV',
+			lang: 'en',
+			visitor: 'true',
+		})
+	</script>
+
+
+
+
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
+    </br>
+    
+    &copy; 2022 XIUPING WU
+    
+  </p>
+</footer>
+    
+    
+  </div>
+</div>
+</body>
+</html>
